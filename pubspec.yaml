@@ -1,0 +1,15 @@
+name: sqllite
+description: A dart wrapper for kipken/sql.js
+version: 0.0.1
+author: John Ryan <john.p.ryan4@gmail.com>
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+
+dependencies:
+  js: ^0.6.0
+  resource: ^1.1.0
+
+dev_dependencies:
+  browser: ^0.10.0
+  test: ^0.12.0
