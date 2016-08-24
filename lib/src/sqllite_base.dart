@@ -11,7 +11,7 @@ class Database {
   external run(String sql);
   external List<QueryResult> exec(String sql);
   external void each(String sql);
-  external prepare(String sql, {dynamic params});
+  external prepare(String sql, [dynamic params]);
   external List export();
   external void close();
 }
