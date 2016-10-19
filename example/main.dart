@@ -1,7 +1,7 @@
 import 'dart:html';
 import 'dart:convert';
 import 'dart:typed_data';
-import 'package:sqllite/sqllite.dart';
+import 'package:sqllite/sqljs.dart';
 
 InputElement uploadInput;
 Database db;

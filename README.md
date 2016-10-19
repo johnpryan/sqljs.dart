@@ -1,11 +1,11 @@
-# sqllite-dart
+# sqljs.dart
 
 A dart wrapper for kipken/sql.js
 
 ## Usage
 
 ```dart
-    import 'package:sqllite/sqllite.dart';
+    import 'package:sqljs/sqljs.dart';
 
     main() {
       var db = new Database();
@@ -22,8 +22,17 @@ A dart wrapper for kipken/sql.js
     }
 ```
 
+## Generating
+
+This package uses `dart_js_facade_gen`.  To generate a library from the
+typescript definition file run:
+
+```
+dart_js_facade_gen lib/sqljs.d.ts > lib/sqljs.dart
+```
+
 ## Features and bugs
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: http://github.com/johnpryan/sqllite-dart/issues
+[tracker]: http://github.com/johnpryan/sqljs.dart/issues
